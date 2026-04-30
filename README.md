@@ -94,7 +94,9 @@ lark-yelaoshi/
 ├── README.md                   # 本文件
 └── references/
     ├── raw_transcript.md       # 叶老师培训原始对话记录
-    └── core_rules.md           # 详细规则与示例
+    ├── core_rules.md           # 详细规则与示例
+    └── examples/               # 🆕 实战案例（含参考图+提示词）
+        └── sword_poses.md      # C03 执剑姿态案例（悬崖云海+暗调战场）
 ```
 
 ---
