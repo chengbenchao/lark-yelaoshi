@@ -96,8 +96,30 @@ lark-yelaoshi/
     ├── raw_transcript.md       # 叶老师培训原始对话记录
     ├── core_rules.md           # 详细规则与示例
     └── examples/               # 🆕 实战案例（含参考图+提示词）
-        └── sword_poses.md      # C03 执剑姿态案例（悬崖云海+暗调战场）
+        ├── sword_poses.md      # C03 执剑姿态案例（悬崖云海+暗调战场）
+        └── swordsman_blue/     # 🆕 男剑客蓝焰灵剑战斗案例（6 图）
 ```
+
+---
+
+## 🖼️ 实战案例展示
+
+以下案例展示了应用“叶老师运镜三要素”与“表情规则”后的 AI 生成效果（基于 Seedance/NanoBanana）。
+
+### 案例：男剑客·蓝焰剑气（战斗瞬间）
+
+**核心逻辑**：
+*   **表情**：眼神凌厉、表情冷峻（拒绝死脸）
+*   **运镜**：侧逆光 + 主体自发光（营造冲击感）
+*   **动态**：发丝与衣摆随剑气剧烈飘动（速度感）
+
+| 动态全身 (Dynamic Pose) | 面部特写 (Close-up) | 中景蓄力 (Mid-shot) |
+|:---:|:---:|:---:|
+| ![01_dynamic_pose](references/examples/swordsman_blue/01_dynamic_pose.jpg) | ![02_closeup_face](references/examples/swordsman_blue/02_closeup_face.png) | ![03_mid_shot_action](references/examples/swordsman_blue/03_mid_shot_action.png) |
+
+| 冷酷回眸 (Cool Lookback) | 战斗特写 (Action Close-up) | 眼神聚焦 (Intense Eyes) |
+|:---:|:---:|:---:|
+| ![04_closeup_cool](references/examples/swordsman_blue/04_closeup_cool.png) | ![05_mid_shot_dynamic](references/examples/swordsman_blue/05_mid_shot_dynamic.jpg) | ![06_closeup_intense](references/examples/swordsman_blue/06_closeup_intense.jpg) |
 
 ---
 
