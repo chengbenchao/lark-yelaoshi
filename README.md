@@ -104,41 +104,20 @@ lark-yelaoshi/
 
 ## 🖼️ 叶老师运镜三要素 · 视觉图解
 
-以下图片展示了应用**叶老师规则**后的实际生成效果。通过画面细节，直观解释核心概念。
+以下图解直观展示了**10 秒打戏**中如何运用叶老师的运镜三要素（跟随、切换、环绕）。
 
-### 1️⃣ 快速跟随 (Fast Tracking)
-> **"镜头追着主体跑，速度感来源"**
+![10 秒打戏运镜时间轴分布](10s_action_timeline.png)
 
-![01_dynamic_pose](references/examples/swordsman_blue/01_dynamic_pose.jpg)
+### 📊 核心逻辑解析
 
-*   **画面特征**：角色全速冲锋，镜头紧跟其后。
-*   **规则体现**：衣摆与发丝向后剧烈飘动，体现 `fast camera tracking` 带来的速度感。
+**跟随和切换是基本功（主菜 🍚），环绕是杀手锏（甜点 🍰）。**
 
-### 2️⃣ 快速环绕 (Fast Orbiting)
-> **"对拼/蓄力瞬间，干脆利落绕一圈"**
-
-![04_closeup_cool](references/examples/swordsman_blue/04_closeup_cool.png)
-
-*   **画面特征**：角色侧身回眸，剑光划过。
-*   **规则体现**：构图暗示镜头正在快速 `orbit`（环绕）角色，捕捉侧面轮廓，营造战斗张力。
-
-### 3️⃣ 快速切换 (Fast Cutting)
-> **"15 秒至少切 3 个镜头，不能一镜到底"**
-
-| 中景动作 (Mid-shot) | 面部特写 (Close-up) |
-| :---: | :---: |
-| ![05_mid_shot_dynamic](references/examples/swordsman_blue/05_mid_shot_dynamic.jpg) | ![06_closeup_intense](references/examples/swordsman_blue/06_closeup_intense.jpg) |
-
-*   **画面特征**：从全身/中景动作瞬间切换到面部特写。
-*   **规则体现**：景别剧烈变化（中景↔特写），制造视觉冲击，拒绝一镜到底。
-
-### 4️⃣ 表情强制规则 (Expression)
-> **"战斗中绝不允许死脸"**
-
-![02_closeup_face](references/examples/swordsman_blue/02_closeup_face.png)
-
-*   **画面特征**：面部特写展示清晰的战斗情绪。
-*   **规则体现**：眼神凌厉专注，眉头微皱（`fierce expression`），完全没有"木头人"般的放空表情。
+| 时间段 | 运镜要素 | 定位 | 核心说明 |
+|:---:|------|:---:|------|
+| **0-3s** | **快速跟随** | 🍚 主菜 | 镜头追着主体跑，速度感来源 |
+| **3-4s** | **快速环绕** | 🍰 甜点 | 武器相撞高光时刻，镜头快速绕半圈 |
+| **4-8s** | **快速切换** | 🍚 主菜 | 广角/中景/特写来回切，不能一镜到底 |
+| **8-10s** | **特写收尾** | 🎬 结束 | 镜头推进面部特写，英雄亮相 |
 
 ---
 
