@@ -102,51 +102,43 @@ lark-yelaoshi/
 
 ---
 
-## 🖼️ 叶老师运镜三要素 · 图文实战解析
+## 🖼️ 叶老师运镜三要素 · 视觉图解
 
-以下案例展示了如何运用**以图反推 (Image-to-Prompt)** 技术，从静态画面中提取符合"叶老师规则"的运镜提示词。
+以下图片展示了应用**叶老师规则**后的实际生成效果。通过画面细节，直观解释核心概念。
 
 ### 1️⃣ 快速跟随 (Fast Tracking)
-> **"镜头紧追主体跑，速度感来源"**
+> **"镜头追着主体跑，速度感来源"**
 
-![01_dynamic_pose.jpg](references/examples/swordsman_blue/01_dynamic_pose.jpg)
+![01_dynamic_pose](references/examples/swordsman_blue/01_dynamic_pose.jpg)
 
-- **画面解析**：角色全速冲锋，镜头紧跟其后，衣摆与发丝向后剧烈飘动。
-- **📝 以图反推提示词**：
-  ```text
-  fast camera tracking, male swordsman charging forward, white robes flowing back violently, intense blue energy sword, dynamic motion blur, handheld camera, fast-paced action
-  ```
-- **✅ 规则验证**：加入了 `fast camera tracking` 和 `motion blur`，完全符合"主菜"定义。
+*   **画面特征**：角色全速冲锋，镜头紧跟其后。
+*   **规则体现**：衣摆与发丝向后剧烈飘动，体现 `fast camera tracking` 带来的速度感。
 
----
+### 2️⃣ 快速环绕 (Fast Orbiting)
+> **"对拼/蓄力瞬间，干脆利落绕一圈"**
 
-### 2️⃣ 快速切换 (Fast Cutting)
+![04_closeup_cool](references/examples/swordsman_blue/04_closeup_cool.png)
+
+*   **画面特征**：角色侧身回眸，剑光划过。
+*   **规则体现**：构图暗示镜头正在快速 `orbit`（环绕）角色，捕捉侧面轮廓，营造战斗张力。
+
+### 3️⃣ 快速切换 (Fast Cutting)
 > **"15 秒至少切 3 个镜头，不能一镜到底"**
 
-![05_mid_shot_dynamic.jpg](references/examples/swordsman_blue/05_mid_shot_dynamic.jpg) | ![06_closeup_intense.jpg](references/examples/swordsman_blue/06_closeup_intense.jpg)
-:---:|:---:
-**中景动作 (Mid-shot)** | **面部特写 (Close-up)**
+| 中景动作 (Mid-shot) | 面部特写 (Close-up) |
+| :---: | :---: |
+| ![05_mid_shot_dynamic](references/examples/swordsman_blue/05_mid_shot_dynamic.jpg) | ![06_closeup_intense](references/examples/swordsman_blue/06_closeup_intense.jpg) |
 
-- **画面解析**：从全身/中景动作瞬间切换到面部特写，捕捉凌厉眼神。
-- **📝 以图反推提示词 (特写)**：
-  ```text
-  extreme close-up, intense fierce expression, gritting teeth, blue sword light reflecting on face, cinematic lighting, 85mm lens, sharp focus on eyes
-  ```
-- **✅ 规则验证**：通过景别剧烈变化（中景↔特写）制造冲击，且严格执行了**表情规则**（`fierce expression`, `gritting teeth`）。
+*   **画面特征**：从全身/中景动作瞬间切换到面部特写。
+*   **规则体现**：景别剧烈变化（中景↔特写），制造视觉冲击，拒绝一镜到底。
 
----
+### 4️⃣ 表情强制规则 (Expression)
+> **"战斗中绝不允许死脸"**
 
-### 3️⃣ 快速环绕 (Fast Orbiting)
-> **"对拼/蓄力高光时刻，干脆利落绕一圈"**
+![02_closeup_face](references/examples/swordsman_blue/02_closeup_face.png)
 
-![04_closeup_cool.png](references/examples/swordsman_blue/04_closeup_cool.png)
-
-- **画面解析**：角色侧身回眸，剑光划破空气，暗示镜头正在快速绕其旋转捕捉侧面轮廓。
-- **📝 以图反推提示词**：
-  ```text
-  fast orbital camera movement, 180-degree rotation around swordsman, dramatic side profile, blue energy trail swirling, cinematic tension, dynamic angle
-  ```
-- **✅ 规则验证**：加入了 `fast orbital camera movement` 和 `180-degree rotation`，仅在"蓄力/回眸"这一甜点时刻使用。
+*   **画面特征**：面部特写展示清晰的战斗情绪。
+*   **规则体现**：眼神凌厉专注，眉头微皱（`fierce expression`），完全没有"木头人"般的放空表情。
 
 ---
 
